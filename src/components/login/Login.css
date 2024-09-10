@@ -1,0 +1,99 @@
+/* Import this file in your main component where you render Login */
+body {
+    margin: 0;
+    padding: 0; /* Reset browser defaults */
+  }
+  
+  .Login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center horizontally */
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .LoginLogo {
+    width: 100px; /* Adjust logo width for better proportions */
+    object-fit: contain; /* Maintain logo aspect ratio */
+    margin: 25px 0;
+   
+  }
+  
+  .LoginContainer {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 25px;
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px; /* Rounded corners for a clean look */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .LoginContainer h1 {
+    margin-bottom: 25px;
+    font-size: 24px; /* Adjust heading size as needed */
+    text-align: center;
+    font-weight: bold; /* Bold text for emphasis */
+    color: #333; /* Darker text for better readability */
+  }
+  
+  .LoginContainer form {
+    display: flex; /* Arrange form elements vertically */
+    flex-direction: column;
+    width: 100%; /* Form elements take full container width */
+  }
+  
+  .LoginContainer form input {
+    width: 100%; /* Full-width input fields */
+    height: 40px; /* Adjust input height for better proportions */
+    padding: 10px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 3px; /* Rounded corners for inputs */
+    box-sizing: border-box; /* Include padding in width calculation */
+    font-size: 16px; /* Adjust font size for readability */
+  }
+  
+  .LoginContainer form h3 { /* Adjust form label styles */
+    font-size: 14px; /* Smaller text size for labels */
+    color: #333; /* Darker text for labels */
+    margin-bottom: 5px; /* Spacing for labels */
+  }
+  
+  .LoginButton {
+    width: 100%; /* Full-width button */
+    padding: 10px 15px; /* Adjust padding for a comfortable size */
+    background-color: #f8d406; /* Blue background */
+    color: #fff; /* White text */
+    border: none; /* Remove default button border */
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer; /* Indicate clickable behavior */
+    transition: background-color 0.2s ease-in-out; /* Smooth hover effect */
+    margin-top: 15px; /* Spacing after form elements */
+  }
+  
+  .LoginButton:hover {
+    background-color: #0067cc; /* Darker blue on hover */
+  }
+  
+  .TermsAndConditions {
+    text-align: center;
+    margin-top: 20px; /* Spacing after the button */
+    font-size: 0.8em; /* Smaller text for terms and conditions */
+    color: #999; /* Grayed-out text color */
+  }
+  
+  .TermsAndConditions a {
+    color: #007bff; /* Blue color for the link */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.2s ease-in-out; /* Smooth hover effect */
+  }
+  
+  .TermsAndConditions a:hover {
+    color: #0067cc; /* Darker blue on hover */
+  }
+  

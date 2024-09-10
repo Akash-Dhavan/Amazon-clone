@@ -1,0 +1,46 @@
+.Footer{
+ color: white;   
+ margin-top: 20px;
+ font-size: 14px;
+ background-color: black;
+}
+.FooterBottomToTop{
+    background-color: rgb(16, 17, 39);
+    margin-top: 40px;
+    text-align: center;
+}
+.FooterBottomToTop:hover{
+ cursor: pointer;
+ background-color: black;   
+}
+.FooterVerRow{
+    display: table;
+    padding-bottom: 40px;
+    margin: 0 auto;
+}
+.FooterVerCol{
+    display: table-cell;
+    line-height: 18px;
+    padding: 0 10px;
+
+
+}
+.FooterVerColHead{
+    font-size: 15px;
+    margin: 6px 0 15px 0;
+    /* white-space: ; */
+    font-weight: 700;
+}
+.FooterVerCol ul{
+    margin: 0;
+    padding: 0;
+}
+.FooterLast{
+    display: flex;
+    padding: 10px 0;
+    justify-content: center;
+}
+.FooterMess{
+  font-size: 120%;
+  display: flex;  
+}

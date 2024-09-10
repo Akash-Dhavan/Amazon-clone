@@ -1,0 +1,31 @@
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+   
+  }
+  
+  .product-row {
+    display: flex; /* Arrange products horizontally within a row */
+    flex-wrap: wrap; /* Allow rows to wrap if needed */
+    width: 100%; /* Ensure rows fill the container width */
+    margin-bottom: 10px; /* Add space between rows */
+    justify-content: space-between;
+  }
+  
+  .product-image {
+    min-height: 200px;
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+  }
+  
+  .product-add-to-cart {
+    cursor: pointer;
+    background-color: yellow; /* Yellow background for the button */
+    color: black; /* Black text for better visibility */
+    padding: 5px 10px; /* Add some padding for better presentation */
+    border: 1px solid #ccc; /* Optional border for styling */
+    border-radius: 5px; /* Slight rounded corners for the button */
+    width: 200px;
+  }
+  

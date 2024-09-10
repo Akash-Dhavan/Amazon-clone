@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline:none;
+    border:none;
+    text-decoration: none;
+}
+.header {
+    display: flex;
+    flex-direction: row; /* Align elements horizontally */
+    align-items: center; /* Vertically center content */
+    justify-content: space-between; /* Distribute remaining space evenly */
+    background-color: #182839; /* Amazon blue background */
+    height: 60px;
+    padding: 0 10px; /* Add some padding for aesthetics */
+    position: sticky; /* Make the header stick to the top on scroll */
+    top: 0;
+    z-index: 1000; /* Ensure the header stays on top */
+    width: auto;
+  }
+  
+  .headerTop {
+    display: flex; /* Remove margin-right for inline display */
+    align-items: center;
+  }
+  
+  .headerLeftNav {
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 10px; /* Adjust margin as needed */
+    border: none; /* Remove border for cleaner look */
+    display: flex; /* Allow alignment of icon and text (optional) */
+    align-items: center; /* Vertically center icon and text (optional) */
+  }
+  
+  .headerLeftNav span { /* Assuming the icon is wrapped in a span element */
+    margin-right: 5px; /* Add some margin between icon and text (optional) */
+  }
+  
+  /* Optional: Style the MenuIcon if needed (replace with actual class if different) */
+  .MuiSvgIcon-root {
+    color: white; /* Ensure the icon color is white on the blue background */
+    margin: 1px 10px 5px 5px; /* Adjust margin as needed */
+  }
+  
+  .logoimg {
+    height: 3.5vh; /* Adjust height as needed */
+    /* Remove margin-top for inline display */
+    padding-top:10px ;
+  }
+  
+  .headerSearch {
+    display: flex;
+    flex: 1; /* Make search area flexible */
+    margin: 0 10px; /* Adjust margin as needed */
+  }
+  
+  .headerSearchInput {
+    width: 60vw; /* Adjust width as needed */
+    height: 17px;
+    border: 1px solid #ddd; /* Add a thin border */
+    padding: 5px; /* Add some padding */
+    padding-left: 25px;
+  }
+  
+  .headerSearchIcon {
+position:absolute;
+left: 69.9vw;
+cursor: pointer;
+padding: 2px;
+background-color:chocolate;
+
+  }
+  .nav-options{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   padding: 30px;
+   
+  }
+  .nav-SignIn{
+    color: white;
+    display: flex;
+    flex-direction: column; 
+    padding: 10px;
+  }
+  .nav-Orders{
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-Cart{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    /* background-color: red; */
+  }
+  .cart-span{
+    color: white;
+    margin-bottom: 35px;
+
+  }
+  .header-bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    height: 40px;
+   
+  }
+  .header-bottom-option{
+    color: white;
+    cursor: pointer;
+    z-index: 1005;
+  }
+ 
